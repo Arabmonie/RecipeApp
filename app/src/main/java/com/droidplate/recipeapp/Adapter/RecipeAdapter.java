@@ -96,7 +96,7 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.MyViewHold
 
         public ImageView thumb;
         public TextView recipename, description, fats,
-        proteins, deliverableingredients, carbos;
+        proteins, carbos;
 
 
 
@@ -108,7 +108,6 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.MyViewHold
             description = (TextView)itemView.findViewById(R.id.description);
             fats = (TextView)itemView.findViewById(R.id.fats);
             proteins = (TextView)itemView.findViewById(R.id.proteins);
-          // deliverable_ingredients = (TextView)itemView.findViewById(R.id.deliverable_ingredients);
            carbos = itemView.findViewById(R.id.carbos);
 //           itemView.setOnClickListener(new View.OnClickListener() {
 //               @Override

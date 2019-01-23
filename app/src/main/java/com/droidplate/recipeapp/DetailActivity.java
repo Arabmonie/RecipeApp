@@ -10,7 +10,7 @@ import com.bumptech.glide.Glide;
 import com.droidplate.recipeapp.Pojo.Recipe;
 
 public class DetailActivity extends AppCompatActivity {
-    TextView recipeName, deliverableIngredints, description, fats, proteins, carbos;
+    TextView recipeName, Ingredients, description, fats, proteins, carbos;
     ImageView recipeImage;
 
     @Override
@@ -36,6 +36,7 @@ public class DetailActivity extends AppCompatActivity {
         recipeName.setText(name);
         description.setText(descriptions);
         fats.setText(fat);
+
 
         Glide.with(this).load(image).into(recipeImage);
 
